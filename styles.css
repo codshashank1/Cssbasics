@@ -112,27 +112,31 @@ a:hover {
   padding-bottom: inherit;
 }
 .top-container > h1 {
-  transition: all linear 0.8s;
+  transition: all 1s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .top-container > h1:hover {
   font-size: 70px;
   color: #059571;
 }
 .top-container > h2 {
-  transition: all linear 0.3s;
+  transition: all 0.3s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .top-container > h2:hover {
   color: #059571;
 }
 .skill-row > h3 {
-  transition: all linear 0.4s;
+  transition: all 0.4s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .skill-row > h3:hover {
   color: #059571;
   font-size: 27px;
 }
 .middle-container h2 {
-  transition: all linear 0.5s;
+  transition: all 0.5s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .middle-container h2:hover {
   color: #059571;
@@ -149,7 +153,8 @@ a:hover {
   padding-bottom: 5rem;
 }
 .last-one {
-  transition: all linear 0.2s;
+  transition: all 0.2s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 .last-one:hover {
   color: #059571;
